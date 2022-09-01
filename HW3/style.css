@@ -1,0 +1,87 @@
+/*box*/
+.parent{
+  width: 768px;
+  height: 80px;
+  padding: 25px;
+  margin: 50px 250px;
+  position: relative;
+  border: 3px solid black;
+  text-align: center; 
+}
+.child{
+    width: 768px;
+    top: 95px;   
+    position: absolute;
+    
+}
+.pic{
+  width: 860px;
+  margin: 90px 240px;
+  overflow: hidden;
+}
+.icoin{
+    width: 860px;
+    margin: 0px 240px;
+    text-align: center; 
+}
+/*title*/
+h1{
+    width: 762px;
+    position: absolute;
+    top: 10px;
+    font-size: 300%;
+}
+h2{
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    font-style: oblique; 
+}
+
+/* list*/
+#head{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#head li{
+    display: inline-block;
+    inline-size: 6%;
+}
+.icoin ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.icoin li{
+    display: inline-block;
+    inline-size: 6%;
+}
+
+/*link property*/
+a{text-decoration:none;}   
+#head li .home{
+    font-style: italic;
+    font-size: small;
+    color: #000;
+}
+#head li .other{
+    font-style: italic;
+    color: gray;
+    font-size: small;
+}
+#head li .other:hover{
+    color: #000;
+}
+
+/*phase property*/
+p{
+    font-size: 125%;
+}
+
+/*image*/
+.pic .pic1{
+    width: 860px;
+    height: 576px;
+}
+
