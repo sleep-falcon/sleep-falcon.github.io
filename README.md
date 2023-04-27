@@ -1,1 +1,1 @@
-# Project Dispaly for CSCI 571 
+# Project Display for CSCI 571 
